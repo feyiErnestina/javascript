@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user input</title>
+</head>
+<body>
+    <!-- dome manipulation -->
+    <h2 id="name"></h2>
+    <h3 id="age"></h3>
+    <p id="year"></p>
+    <!-- accepting user input -->
+    <script>
+        let iName = window.prompt('what is your name ?');
+        if(iName ===""){
+            alert('a required field');
+            window.prompt('what is your name?');
+        }
+
+
+        
+        let iAge = window.prompt('what is your age?');
+        if(iAge===""){
+            alert("you age is a must");
+            window.prompt('what is your age?');
+        }
+        let iYear = 2022-iAge;
+        document.getElementById('name').innerHTML = 'My name is '+ iName;
+        document.getElementById('age').innerHTML = 'I am '+ iAge +' years old' ;
+        document.write(" I am born in the year "+ iYear +'</br>');
+        
+
+        // display the name and age entered on the browser window using a heading tag
+        // cal the birth year of the user when the age is entered
+
+    </script>
+</body>
+</html>

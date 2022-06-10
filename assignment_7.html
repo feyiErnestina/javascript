@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign 7</title>
+</head>
+<body>
+    <script>
+        // let a ='fufu';
+        // let b = 'banku';
+        // let c = 'rice';
+        // let d = 'kokonte';
+        // let e = 'aklpe';
+        // let f = 'fried yam';
+
+        let item1 ="fufu";
+        let item2 ="banku";
+        let item3 = "rice with crab intestine stew";
+        let item4 = "kokonte";
+        let item5 = "aklpe";
+        let ing1 = 'cassava water and plantain';
+        let ing2 = 'casssava dough, water and corn dough';
+        let ing3 = 'local rice and the intestine of a crab with oil, tomatoes';
+        let ing4 = 'dried cassava flour and water';
+        let ing5 = 'corn flour and water';
+        let menu = window.alert('Have a look at our menu: a. '+ item1 +' , b. '+ item2 +' , c.'+ item3 +' , d.'+ item4 +' and e. '+ item5 +'.');
+        menu =window.prompt('please place your order');
+        while(menu==""){
+            menu = window.prompt("please you must eat something")
+            
+        }
+        if(menu== "a"){
+            document.writeln('we offer the best '+ item1 +' and here is our ingredient: '+ ing1 +' and we do it just exactly like how mum does it.');
+        }
+        else if( menu== 'b'){
+            document.writeln('we offer the best '+ item2 +' and here is our ingredient: '+ ing2 +' and we do it just exactly like how mum does it.');
+        }
+        else if( menu== 'c'){
+            document.writeln('we offer the best '+ item3 +' and here is our ingredient: '+ ing3  +' and we do it just exactly like how mum does it.');
+        }
+        else if( menu== 'd'){
+            document.writeln('we offer the best '+ item4 +' and here is our ingredient: '+ ing4 +' and we do it just exactly like how mum does it.');
+        }
+        else if( menu== 'e'){
+            document.writeln('we offer the best '+ item5 +' and here is our ingredient: '+ ing5 +' and we do it just exactly like how mum does it.');
+        }
+        else{
+            document.writeln("we are sorry we do not have this on our menu today, kindly check again and select something else or come another day.THANK YOU");
+        }
+
+
+      
+
+    </script>
+</body>
+</html>

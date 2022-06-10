@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign 6</title>
+</head>
+<body>
+    <script>
+        let eligibleAge = 18;
+        let adultAge = 65;
+        let age = window.prompt('please how old are you') ;
+        while(age ==""){
+        age= window.alert("invalid input");
+        age = window.prompt('enter your age in numbers')
+        }
+       
+        if( age >= eligibleAge && age < adultAge){
+            document.writeln('you can vote for nana')
+        }
+        else if(age > eligibleAge){
+            document.writeln('you are a teenager. you cannot vote')
+        }
+        else if( age >adultAge ){
+            document.writeln('you are too old to vote')
+        }
+        else{
+            document.writeln('Incorrect input')
+        }
+
+
+        
+    </script>
+</body>
+</html>
